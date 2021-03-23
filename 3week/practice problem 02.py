@@ -5,6 +5,7 @@ print(str, "\n")
 
 set_str = set(str)
 set_str.remove(' ')
+set_str.remove('\n')
 list_str = list(set_str)
 
 print("--------------------\n문자 빈도수(4회 이상)")
